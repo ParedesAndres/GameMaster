@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-brand{
+    width: auto;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.general {
+    position: relative;
+}
+
+/*
+span, agrupar en línea
+*/
+
+span {
+    color: #F19E33;
+}
+
+.linkSM {
+    font-family: 'Open Sans', sans-serif;
+    color: #F19E33;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F19E33;
+    font-weight: bold;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.GMLogo{
+    width: 50%;
+    height: auto;
+}
+/*--------------*/
+
+#fortnitePresentation {
+    background-image: url(imagenes/body1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backLocalColor {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 489px;
+}
+
+.fortniteImg {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.nav {
+    background-color: none;
+}
+
+#localNav {
+    margin-top: 430px;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.fDesc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: white;
+}
+
+.desc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#rowLocal {
+    height: 50px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav-local {
+    margin-right: 40px;
+}
+
+#selected {
+    color: #F19E33;
+}
+
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F19E33;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#encabezado1{
+    height: 0;
+}
+
+#ParteUno {
+    background-image: url(imagenes/fondo1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 653px;
+}
+
+#containerCBasics {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    justify-content: center;
+    height: 400px;
+    margin: 10px;
+    position: absolute;
+    
+}
+.col-4{
+    padding: 10px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 250px;
+    
+}
+
+h6{
+    color: #828282;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+
+.parrafo1{
+    color: #828282;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.imagen{
+    position: relative; 
+    justify-content: center;
+    width: 100%;
+     background-color: linear-gradient(to top, black, rgba(31,31,31,30));
+    
+}
+
+
+.personaje1{
+    width: 100%;
+}
+
+.divMayor{
+    display: flex;
+}
+
+.curse-complete{
+    display: flex;
+    align-content: center;
+}
+
+.span1{
+    margin-top: 245px;
+    color: #91DC5A;
+    
+   
+}
+
+.etiqueta{
+    margin-left: 130px;
+}
+
+/*--------------*/
+
+#ParteDos {
+    background-image: url(imagenes/fondo2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 833px;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.relative-container{
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+#containerCAvan {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    justify-content: center;
+    height: 523px;
+    margin: 0 10px;
+    position: absolute;
+    margin-top: -10px;
+
+}
+
+
+
+#containerCAvan h5{
+    margin-top: 385px;
+}
+
+.main-container-season{
+    display: flex;
+    align-content: flex-start;
+}
+
+#juegos1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 20xpx;
+    height: 100%;
+    margin: 0 10px 0 0;
+    justify-content: space-around;
+    align-content: space-between;
+}
+#juegos2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 90px;
+    margin-top: 0;
+    padding:0;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-content: space-between;
+    
+}
+
+.relative-container h6{
+    position: absolute;
+    bottom: 30px;
+    width: 10%;
+}
+
+#container-otrositems{
+    justify-content: space-between;
+    width: 40%;
+    position: relative;
+}
+
+
+/*--------------*/
+#footer {
+    background-color: black;
+}
+
+#wrap-footer {
+    margin: 100px 0;
+}
+
+.title-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.item-footer {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
