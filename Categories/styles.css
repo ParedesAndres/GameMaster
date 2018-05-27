@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -70px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F19E33;
+}
+
+h5 {
+    color: white;
+}
+
+span {
+    color: #F19E33;
+}
+
+button {
+    background-color: #FA8A0B;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 16px rgba(250, 138, 11, 1);
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.general {
+    position: relative;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F19E33;
+    font-weight: bold;
+}
+
+.linkSM {
+    font-family: 'Open Sans', sans-serif;
+    color: #F19E33;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.GMLogo{
+    width: 50%;
+    height: auto;
+}
+
+/* --------------------------------------------------------------- */
+
+#cover-container {
+    background-image: url(images/cover-image-background.png);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    justify-content: center;
+}
+
+.title-cover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+span {
+    color: #FA8A0B;
+}
+
+.input-group {
+    margin: 100px 0 100px 0;
+    margin-top: 300px;
+}
+
+.form-control {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    opacity: .5;
+    border-radius: 50px 50px;
+}
+
+.btn {
+    background-color: #FA8A0B;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    box-shadow: 0 0 30px #FA8A0B;
+}
+
+h3 {
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+    color: white;
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cover-local-navigation {
+    display: flex;
+    align-content: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-link{
+     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+/* --------------------------------------------------------------- */
+
+#main-categories {
+    background-color: #0F0F0F;
+    justify-content: center;
+    position: relative;
+}
+
+#categories-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 50px 0;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.fornite-title-categories {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    left: 35%;
+    bottom: 20%;
+    margin: 0;
+}
+
+.fornite-button {
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    background-color: #FA8A0B;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.fornite-button:hover {
+    box-shadow: 0 0 30px #FA8A0B;
+}
+
+.local-navigation{
+    display: flex;
+}
+
+
+#fortnite {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/fornite-container.png");
+    border-radius: 10px;
+    justify-content: center;
+    height: 437px;
+    margin: 0 10px;
+    position: absolute;
+
+
+}
+
+#juegos {
+
+
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    margin-left: 45px;
+    height: 437px;
+
+}
+
+#juegos1 {
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    height: 437px;
+}
+
+.imgGod {
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.imgGod1 {
+    border-radius: 10px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+h4 {
+    margin-top: -40px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+   
+}
+.nav-link1{
+     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: px;
+    font-weight: 500;
+}
+/*
+------------------------------ Footer -----------------------------
+*/
+
+
+#footer {
+    background-color: black;
+}
+
+#wrap-footer {
+    margin: 100px 0;
+}
+
+.title-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.item-footer {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+ul {
+    padding: 0;
+    display: block;
+}
+
+ul.local-navigation{
+    padding: 0;
+    display: flex;
+}
+
+
+
