@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -70px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F19E33;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color: #F19E33;
+}
+
+button {
+    background-color: #FA8A0B;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 16px rgba(250, 138, 11, 1);
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.general {
+    position: relative;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F19E33;
+    font-weight: bold;
+}
+
+.linkSM {
+    font-family: 'Open Sans', sans-serif;
+    color: #F19E33;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.GMLogo{
+    width: 50%;
+    height: auto;
+}
+
+/*
+------------------------------ Local Navigation of Fortnite -----------------------------
+*/
+
+#fortnitePresentation {
+    background-image: url(images/body1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backLocalColor {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 489px;
+}
+
+.fortniteImg {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.nav {
+    background-color: none;
+}
+
+#localNav {
+    margin-top: 430px;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.fDesc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: white;
+}
+
+.desc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#rowLocal {
+    height: 50px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav-local {
+    margin-right: 40px;
+}
+
+#selected {
+    color: #F19E33;
+}
+
+/*
+------------------------------ Teacher Assigned -----------------------------
+*/
+
+#partOne {
+    background-image: url(images/body2.png);
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.teacherContainer {
+    background-color: #0F0F0F;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#contLogo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.teacherLogo {
+    width: 90%;
+}
+
+#rowOnline {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contOnline {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-start;
+}
+
+#contOnlineTwo {
+    margin-right: 20px;
+}
+
+h6 {
+    color: white;
+}
+
+#pOnline {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.settings {
+    width: 30%;
+}
+
+#rowNinja {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descNinja {
+    text-align: justify;
+    margin-left: auto;
+}
+
+.imgHability {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#time {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.descTime {
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+/*
+------------------------------ Popular Classes -----------------------------
+*/
+
+#partTwo {
+    background-image: url(images/popularClasses/body3.png);
+    padding-top: 100px;
+    background-size: cover;
+    background-position: 0% 1%;
+}
+
+.imageTwoTitle {
+    width: 35%;
+    height: 35%;
+}
+
+.imageTwoSubTitle {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+#contClasses {
+    margin-top: 20px;
+    /*
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    */
+}
+
+#contCard {
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #0F0F0F;
+    cursor: pointer;
+}
+
+.imgCardTwo {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+/*
+------------------------------ Popular Teachers -----------------------------
+*/
+
+#partThree {
+    background-image: url(images/popularTeachers/body4.png);
+    padding-top: 100px;
+    background-size: cover;
+    background-position: 0% 1%;
+}
+
+.imageThreeTitle {
+    width: 45%;
+    height: 45%;
+}
+
+.imageThreeSubTitle {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+#contTeacher {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacherName {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgTeacher {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card-text-italic {
+    font-size: 15px;
+}
+
+.imgScore {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.teacherVG {
+    width: 20%;
+    height: 20%;
+    margin: 5px auto;
+}
+
+/*
+------------------------------ Footer -----------------------------
+*/
+
+#footer {
+    background-color: black;
+}
+
+#wrap-footer {
+    margin: 100px 0;
+}
+
+.title-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.item-footer {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
