@@ -1,0 +1,292 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+.row {
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.general {
+    position: relative;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E0;
+}
+
+a:hover {
+    color: #F19E33;
+}
+
+
+.row.cover {
+    background-image: url(images/cover-image.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .row.cover {
+        background-image: url(images/cover-image-responsive.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+.cover-group {
+    margin: 200px 0;
+}
+
+.GMLogo{
+    width: 50%;
+    height: auto;
+}
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-right: 800px;
+    color: #FFFFFF;
+}
+
+.jax-description {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #FA8A0B;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 16px rgba(250, 138, 11, 1);
+}
+
+.course-info {
+    display: flex;
+    justify-content: center;
+}
+
+
+#continue-seeing {
+    background-image: url(images/games.png);
+    background-size: cover;
+}
+
+#videos-continue-seeing {
+    margin: 100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.games-videos {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    cursor: pointer;
+    background-color: #212121;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.card-text {
+    color: white;
+    font-size: 9px;
+}
+
+#see-more {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#see-more a {
+    color: #F19E33;
+    letter-spacing: 3px;
+}
+
+span {
+    color: #F19E33;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.fornite-floting {
+    position: absolute;
+    width: 50%;
+    top: 1450px;
+}
+
+@media screen and (max-width: 992px) {
+    .fornite-floting {
+        position: absolute;
+        width: 70%;
+        top: 2220px;
+    }
+}
+
+.trixie-floting {
+    position: absolute;
+    width: 50%;
+    top: 2338px;
+    left: 650px;
+}
+
+@media screen and (max-width: 992px) {
+    .trixie-floting {
+        position: absolute;
+        width: 70%;
+        top: 3800px;
+        left: 210px;
+    }
+}
+
+.card-games {
+    cursor: pointer;
+    background-color: #0F0F0F;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+
+#games {
+    background-image: url(images/games-cover.png);
+    background-size: cover;
+}
+
+#news-cover {
+    background-image: url(images/news-cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-news {
+    background-color: #212121;
+    padding: 25px 25px 25px 25px;
+    border-radius: 3px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+
+.wrap-news {
+    display: flex;
+
+}
+
+.image-news {
+    display: inline-block;
+}
+
+.info-news {
+    display: inline-block;
+}
+
+.title-news {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#category-number {
+    margin-top: 100px;
+}
+
+.image-container-news-category {
+    display: flex;
+    justify-content: center;
+}
+
+#news {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0 10px 10px 10px;
+}
+
+.info {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    margin: 20px 10px 10px 10px;
+}
+
+
+
+#footer {
+    background-color: black;
+}
+
+#wrap-footer {
+    margin: 100px 0;
+}
+
+.title-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.item-footer {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+
+//--------------------------------------------
