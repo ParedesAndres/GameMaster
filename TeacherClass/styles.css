@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -70px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F19E33;
+}
+
+h5 {
+    color: white;
+}
+
+span {
+    color: #F19E33;
+}
+
+button {
+    background-color: #FA8A0B;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 16px rgba(250, 138, 11, 1);
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+.icons-group {
+    margin-right: 20px;
+    display: flex;
+}
+
+.icons-group a {
+    padding: 0;
+    margin-right: 15px;
+}
+
+.general {
+    position: relative;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F19E33;
+    font-weight: bold;
+}
+
+.linkSM {
+    font-family: 'Open Sans', sans-serif;
+    color: #F19E33;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.linkSMB:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 40px auto 40px auto;
+    font-weight: bold;
+}
+
+.GMLogo{
+    width: 50%;
+    height: auto;
+}
+
+/*
+------------------------------ Local Navigation of Fortnite -----------------------------
+*/
+
+#fortnitePresentation {
+    background-image: url(images/body1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backLocalColor {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 489px;
+}
+
+.fortniteImg {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.nav {
+    background-color: none;
+}
+
+#localNav {
+    margin-top: 430px;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.fDesc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: white;
+}
+
+.desc {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#rowLocal {
+    height: 50px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav-local {
+    margin-right: 40px;
+}
+
+#selected {
+    color: #F19E33;
+}
+
+/*
+------------------------------ STREAM CHAT -----------------------------
+*/
+
+.streamChat {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    top: 69px;
+    position: sticky;
+    margin-left: auto;
+    z-index: 3;
+}
+
+.contenedorStreamChat {
+    overflow: auto;
+}
+
+.titleStreamChat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.labelStreamChat {
+    background-color: rgba(248, 158, 51, 0.7);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#areaFondo {
+    background-image: url(images/body/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemChat {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.textChat {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+.imgItemChat {
+    width: 45px;
+    height: 45px;
+}
+
+.typingLabel {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.typingInstruction {
+    color: rgb(130, 130, 130);
+    font-size: 21px;
+    font-weight: inherit;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.typingFunctions {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.emoji {
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+}
+
+.settings {
+    width: 8px;
+    height: 30px;
+    margin-right: 3%;
+}
+
+
+/*
+------------------------------ CONTENT AREA -----------------------------
+*/
+
+#contentArea {
+    width: 80%;
+    height: 100%;
+}
+
+#areaFondo{
+    margin-top: -1000px;
+    z-index: -10;
+}
+
+/*
+----------- Reproduction Video ---------
+*/
+
+.videoArea {
+    width: 100%;
+    height: 100%;
+}
+
+.reproductionVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+}
+
+.reproductionVideo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imgVideo {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+
+/*
+----------- Description Video ---------
+*/
+
+.descVideoArea {
+    width: 100%;
+    height: 100%;
+}
+
+#contDescVideo {
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    padding: 3%;
+}
+
+#firstDescVideo {
+    width: 100%;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.imgLogo {
+    margin-left: 25px;
+}
+
+#textVideo {
+    margin-left: auto;
+}
+
+#textHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgNinja {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.imgSettings {
+    width: 10px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#textDesc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.textHabilities {
+    text-align: right;
+}
+
+#secondDescVideo {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#buttonVideo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.imgButtonVideo {
+    margin-left: 60px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.contVideo {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.buttonNotification {
+    margin-left: auto;
+}
+
+.imgNotification {
+    width: 25px;
+}
+
+/*
+----------- Related Classes ---------
+*/
+
+.relatedClassesArea {
+    width: 100%;
+    height: 100%;
+}
+
+#recomendedHead {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1% 3% 1% 3%;
+}
+
+.linkSM {
+    margin-right: 0;
+}
+
+.titleRelatedC {
+    margin-left: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+#recomendedBody {
+    width: 100%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemVideo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgVideoRC{
+    width: 100%;
+}
+
+.titleVRC {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 21px;
+    color: rgb(189, 189, 189);
+}
+
+.nameVRC {
+    text-align: left;
+}
